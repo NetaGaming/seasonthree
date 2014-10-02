@@ -21,7 +21,17 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    color: #00A0B0;
+}
+
+a {
+    color: #EDC951;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EB6841;
+    text-decoration: underline;
 }
 
 .pure-img-responsive {
@@ -132,7 +142,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+    background: #00A0B0;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -159,7 +169,7 @@ a.pure-button-primary {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    border: 3px solid white;
+    border: 3px solid #69D1DB;
     padding: 1em 1.6em;
     font-weight: 100;
     border-radius: 5px;
@@ -211,7 +221,7 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
+    background: #6A4A3C;
     color: #aaa;
 }
 
@@ -234,10 +244,11 @@ a.pure-button-primary {
 }
 
 .summoner-listing .captain {
-    color: yellow;
+    color: #EB6841;
 }
 
 .summoner-listing .summoner-name {
+    color: #CC333F;
     font-weight: bold;
 }
 
@@ -250,6 +261,10 @@ a.pure-button-primary {
 
 .tiny {
     font-size: 0.4em;
+}
+
+.pull-right {
+    float: right;
 }
 
 div.prizes {
