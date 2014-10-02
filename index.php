@@ -1,11 +1,14 @@
 <?php
 
+require 'vendor/autoload.php';
+
 use LeagueWrap\Api;
 
 $api = new Api(getenv("RIOTAPIKEY_NETA"));
 $api->setRegion('na');
 $api->limit(3000,10);
 $api->limit(180000,600);
+$api->remember();
 
 $captains = array(
     "Darkmist16","SuicideSnowman","Misaga","Delath","AzayakaAkari","riskman64"
@@ -13,9 +16,9 @@ $captains = array(
 
 $summoners = array(
     "Khoza","echoblaze","TheJuggler","m1tsu","019Ky","Mystenance","titan alibaba",
-    "striderfox","Faucetin","Takeiteasyonme","HybridEleven","taaakun","Psychotic Idiot",
+    "striderfox","Faucetin","Takeiteasyonme","HybridEleven","taaaakun","Psychotic Idiot",
     "W4yl4nder","Ngsanity","desunman","fadedlightx","akiraK","stopisme","ginourmous",
-    "karenkun","kalun85","juebag","l337bagger"
+    "karenkun","kalun85","juebag","1337bagger"
 );
 
 $currentPatch = '4.17.1'; // yes, I hate me for this
@@ -211,7 +214,7 @@ for($i=12; $i < 24; $i++) {
 
       <div class="footer l-box is-center">
         <h4 class="content-head content-head-ribbon">
-          Made with mild disgust by <a href="http://matthewcantelon.ca">Matthew Cantelon</a>
+          Made with fingers by <a href="http://matthewcantelon.ca">Matthew Cantelon</a>
         </h3>
       </div>
 
@@ -228,7 +231,7 @@ for($i=12; $i < 24; $i++) {
        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
        e.src='//www.google-analytics.com/analytics.js';
        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-       ga('create','UA-XXXXX-X');ga('send','pageview');
+       ga('create','UA-36246472-3');ga('send','pageview');
     </script>
   </body>
 </html>
