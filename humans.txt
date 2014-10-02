@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Matthew Cantelon -- Lead Developer? -- @mattcanhack
+
+# THANKS
+
+    All of the Neta League for welcoming me in!
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    YUI PureCSS
