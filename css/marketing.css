@@ -237,6 +237,10 @@ a.pure-button-primary {
     margin: 0 auto;
 }
 
+.summoner-listing-left {
+    text-align: right;
+}
+
 .summoner-listing img {
     display: inline-block;
     vertical-align: middle;
