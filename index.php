@@ -80,7 +80,7 @@ $currentPatch = '4.17.1'; // yes, I hate me for this
         <div class="pure-g">
 
           <div class="l-box pure-u-1 pure-u-md-1-2">
-            <ul class="summoner-listing">
+            <ul class="summoner-listing summoner-listing-left pull-right">
 <?php
 for($i=0; $i < 3; $i++) {
     $summoner = $api->summoner()->info($captains[$i]);
@@ -113,8 +113,8 @@ for($i=3; $i < 6; $i++) {
     $iconUrl = 'http://ddragon.leagueoflegends.com/cdn/' . $currentPatch .'/img/profileicon/' . $summoner->profileIconId . '.png';
 ?>
               <li>
-                <span class="captain"><?php echo $captains[$i]; ?></span>
                 <img class="pure-img-responsive" src="<?php echo $iconUrl; ?>" height=50 width=50>
+                <span class="captain"><?php echo $captains[$i]; ?></span>
               </li>
 <?php
 }
@@ -124,8 +124,8 @@ for($i=12; $i < 24; $i++) {
     $iconUrl = 'http://ddragon.leagueoflegends.com/cdn/' . $currentPatch .'/img/profileicon/' . $summoner->profileIconId . '.png';
 ?>
               <li>
-                <?php echo $summoners[$i]; ?>
                 <img class="pure-img-responsive" src="<?php echo $iconUrl; ?>" height=50 width=50>
+                <?php echo $summoners[$i]; ?>
               </li>
 <?php } ?>
             </ul>
