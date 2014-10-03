@@ -106,7 +106,7 @@ for($i=0; $i < 12; $i++) {
           </div>
 
           <div class="l-box pure-u-1 pure-u-md-1-2">
-            <ul class="summoner-listing">
+            <ul class="summoner-listing pull-left">
 <?php
 for($i=3; $i < 6; $i++) {
     $summoner = $api->summoner()->info($captains[$i]);
