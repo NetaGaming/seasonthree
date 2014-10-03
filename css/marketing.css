@@ -271,6 +271,10 @@ a.pure-button-primary {
     float: right;
 }
 
+.pull-left {
+    float: left;
+}
+
 div.prizes {
     background-color: #FAFAFA;
 }
