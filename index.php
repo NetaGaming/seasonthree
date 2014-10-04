@@ -215,7 +215,10 @@ for($i=12; $i < 24; $i++) {
       <div class="footer l-box is-center">
         <h4 class="content-head content-head-ribbon">
           Made with fingers by <a href="http://matthewcantelon.ca">Matthew Cantelon</a>
-        </h3>
+        </h4>
+        <p>
+            Neta LoL Statistics isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
+        </p>
       </div>
 
     </div>
