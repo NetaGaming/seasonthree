@@ -54,7 +54,6 @@ $currentPatch = '4.17.1'; // yes, I hate me for this
       <link rel="stylesheet" href="css/marketing.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
@@ -63,7 +62,7 @@ $currentPatch = '4.17.1'; // yes, I hate me for this
       <div class="splash">
         <h1 class="splash-head">Neta Season<br>3</h1>
         <p class="splash-subhead">
-          Pentakills, magic shows, and prizes.
+          Rushing Statik Shiv on Nami, don't worry.
         </p>
       </div>
     </div>
@@ -145,7 +144,7 @@ for($i=12; $i < 24; $i++) {
 
           <div class="l-box pure-u-1">
             <div class="img-box">
-              <img class="pure-img" src="img/Ryze_4.jpg">
+              <img class="pure-img" src="img/thecupsquare.png">
             </div>
           </div>
 
@@ -156,7 +155,7 @@ for($i=12; $i < 24; $i++) {
           <div class="pure-u-1 pure-u-md-1-4">
             <div class="l-box">
               <h3>First Place</h3>
-              <p>3200 RP & Triumphant Ryze</p>
+              <p>3200 RP, Triumphant Ryze, The Neta Cup, and bragging rights.</p>
             </div>
           </div>
 
@@ -217,6 +216,11 @@ for($i=12; $i < 24; $i++) {
           Made with fingers by <a href="http://matthewcantelon.ca">Matthew Cantelon</a>
         </h4>
         <p>
+          <a href="https://github.com/NetaGaming/seasonthree">
+            Fork this on Github
+          </a>
+        </p>
+        <p>
             Neta LoL Statistics isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
         </p>
       </div>
@@ -227,7 +231,6 @@ for($i=12; $i < 24; $i++) {
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
