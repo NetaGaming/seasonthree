@@ -144,7 +144,7 @@ for($i=12; $i < 24; $i++) {
 
           <div class="l-box pure-u-1">
             <div class="img-box">
-              <img class="pure-img" src="img/thecupsquare.png">
+              <img class="pure-img" src="img/s2winners.jpg">
             </div>
           </div>
 
