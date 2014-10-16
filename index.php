@@ -21,7 +21,7 @@ $summoners = array(
     "karenkun","kalun85","juebag","1337bagger"
 );
 
-$currentPatch = '4.17.1'; // yes, I hate me for this
+$currentPatch = '4.18.1'; // yes, I hate me for this
 
 ?>
 
