@@ -10,8 +10,49 @@ $api->limit(3000,10);
 $api->limit(180000,600);
 $api->remember();
 
-$captains = array(
-    "Darkmist16","SuicideSnowman","Misaga","Delath","AzayakaAkari","riskman64"
+class Team {
+    public $captain = '';
+    public $members = array();
+    public $name = "";
+    
+    public Team($cpt, $members, $name) {
+    	$this->captain = $cpt;
+    	$this->members = $members;
+    	$this->name = $name;
+    }
+}
+
+$teams = array(
+    new Team(
+    	"Darkmist16",
+    	array(),
+    	""
+    ),
+    new Team(
+    	"SuicideSnowman",
+    	array(),
+    	""
+    ),
+    new Team(
+    	"Misaga",
+    	array(),
+    	"",
+    ),
+    new Team(
+    	"Delath",
+    	array(),
+    	""
+    ),
+    new Team(
+    	"AzayakaAkari",
+    	array(),
+    	""
+    ),
+    new Team(
+    	"riskman64",
+    	array(),
+    	""
+    )
 );
 
 $summoners = array(
