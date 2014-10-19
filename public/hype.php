@@ -15,10 +15,18 @@ class Team {
     public $members = array();
     public $name = "";
     
-    public Team($cpt, $members, $name) {
+    public function _construct($cpt, $members, $name) {
     	$this->captain = $cpt;
     	$this->members = $members;
     	$this->name = $name;
+    }
+    
+    public function TeamName() {
+      if($this->name == '') {
+        return $this->captain . "'s team";
+      } else {
+        return $this->name;
+      }
     }
 }
 
