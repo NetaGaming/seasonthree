@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'name' => '',
+	'name' => $_ENV['LARAVEL_WORKBENCH_USER'],
 
 	/*
 	|--------------------------------------------------------------------------
@@ -26,6 +26,6 @@ return array(
 	|
 	*/
 
-	'email' => '',
+	'email' => $_ENV['LARAVEL_WORKBENCH_EMAIL'],
 
 );
