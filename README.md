@@ -1,3 +1,5 @@
+*This project is no longer maintained and is several versions behind on the Riot API. If you'd like to take it over, please reach out to [@mattcan](https://github.com/mattcan)*
+
 # The Neta League
 
 I built this site for a local League of Legends
